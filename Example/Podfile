@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'EventTracing-iOS-LogViewer_Example' do
+  pod 'EventTracing-iOS-LogViewer', :path => '../'
+
+  target 'EventTracing-iOS-LogViewer_Tests' do
+    inherit! :search_paths
+
+  end
+end
