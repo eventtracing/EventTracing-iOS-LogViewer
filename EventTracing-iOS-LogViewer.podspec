@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'EventTracing-iOS-LogViewer'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'EventTracing-iOS-LogViewer.'
 
   s.description      = <<-DESC
